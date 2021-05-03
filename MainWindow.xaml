@@ -50,11 +50,12 @@
             </StackPanel>
 
             <TextBox Width="250"
-                       Height="40"
-                       VerticalContentAlignment="Center"
+                     Height="40"
+                     VerticalContentAlignment="Center"
                      HorizontalAlignment="Left"
                      Margin="5"
-                     Grid.Column="1"/>
+                     Grid.Column="1"
+                     Style="{StaticResource ModernTextBox}"/>
         </Grid>
     </Border>
 </Window>
